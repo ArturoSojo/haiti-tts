@@ -1,0 +1,12 @@
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "*"
+coqui-tts = "*"
+openai-whisper = "*"  # o whisper.cpp si prefieres compilación local
+pydub = "*"
+librosa = "*"
+numba = "*"
+ffmpeg-python = "*"
+langid = "*"  # o fasttext
+pandas = "*"
+typer = "*"   # para CLI

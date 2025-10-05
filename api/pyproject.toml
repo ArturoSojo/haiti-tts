@@ -1,0 +1,21 @@
+[project]
+name = "haiti-tts-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "arturosojovivas@gmail.com"}
+]
+license = {text = "none"}
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "fastapi (>=0.118.0,<0.119.0)",
+    "uvicorn (>=0.37.0,<0.38.0)",
+    "redis (>=6.4.0,<7.0.0)",
+    "rq (>=2.6.0,<3.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
